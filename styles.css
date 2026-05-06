@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner{
+    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/Banner\ Image.png);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.banner-text{
+    
+    color: #FFFFFF; 
+    
+    text-align: center;
+    
+  
+    
+}
+.banner-title{
+
+
+font-size: 32px; 
+margin-bottom: 20px;
+}
+.banner-subtitle{
+    display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   font-weight: bold;
+   font-size: 62px;
+    
+}
+.discount{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+.discount-description{
+    justify-content: center;
+    text-align: center;
+    
+}
+ .discount-new-year{
+    gap: 120px;
+ }
