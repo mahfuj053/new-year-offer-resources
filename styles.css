@@ -6,9 +6,10 @@
 
 .banner{
     background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/Banner\ Image.png);
+    
     height: 600px;
     background-position: center;
-    background-size: cover;
+    width: 1420px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,9 +39,9 @@ margin-bottom: 20px;
     
 }
 .discount{
-    display: flex;
+    
     text-align: center;
-    justify-content: center;
+    margin-top: 120px;
     
     
 }
@@ -49,6 +50,62 @@ margin-bottom: 20px;
     text-align: center;
     
 }
- .discount-new-year{
-    gap: 120px;
+ .description-title{
+    color: #FF0000;
+    font-size: 88px;
+    margin-bottom: 48px;
  }
+ .description-p{
+    color: #FF0000;
+    font-size: 24px;
+    margin-bottom: 16px;
+ }
+ .description-w{
+    color: #070211;
+    font-size: 48px;
+ }
+ .discount-new-year{
+    margin-top: 48px;
+ }
+ .btn{
+    
+   
+    font-size: 20px;
+    margin-top: 48px;
+    color: #FFFFFF;
+ }
+  .party{
+    background-image: url(images/Vectorrr.png);
+    
+   
+    background-position: center;
+    background-size: cover;
+     background-repeat: no-repeat;
+     width: 1420px;
+     height: 600px;
+  margin: 120px auto;
+
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 80px;
+  } 
+.party-title{
+    color: #FFFFFF;
+    font-size: 64px;
+    
+    
+    
+}
+.party-des{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    margin-top: 24px;
+}
+    >
+.new-2024{
+    width: 320px;
+}
