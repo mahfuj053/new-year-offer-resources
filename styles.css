@@ -7,12 +7,29 @@
 .banner{
     background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/Banner\ Image.png);
     
-    height: 600px;
+    /* height: 600px;
     background-position: center;
-    width: 1420px;
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    
+    background-position: center;
+    background-size: cover;
+     background-repeat: no-repeat;
+     width: 1320px;
+     height: 600px;
+  margin: 120px auto;
+  border-radius: 16px;
+
+    border-radius: 16px;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding: 0 80px;
    
 }
 .banner-text{
@@ -70,28 +87,32 @@ margin-bottom: 20px;
  .btn{
     
    
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 48px;
     color: #FFFFFF;
+    padding-left: 35px;
  }
   .party{
-    background-image: url(images/Vectorrr.png);
+    background-image:linear-gradient( rgba(7, 2, 17, 0.2)),url(images/Vectorrr.png);
     
    
     background-position: center;
     background-size: cover;
      background-repeat: no-repeat;
-     width: 1420px;
+     width: 1320px;
      height: 600px;
   margin: 120px auto;
+  border-radius: 16px;
+  
 
-    border-radius: 16px;
+    border-radius:mixed;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     padding: 0 80px;
+    
   } 
 .party-title{
     color: #FFFFFF;
@@ -109,3 +130,124 @@ margin-bottom: 20px;
 .new-2024{
     width: 320px;
 }
+.Scheduled{
+    font-size: 20px;
+    
+    justify-content: center;
+    text-align: center;
+   background-color:#EDE3E3;
+   height: 482px;
+   width: 1320px;
+   border-radius: 16px;
+   margin: 120px auto;
+   padding-top: 200px;
+    
+
+}
+.place, .date , .time{
+    color: #FF0000;
+    
+}
+.butn{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+}
+.offer{
+    
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 113px;
+    
+    
+}
+.head{
+    color: #FF0000;
+    font-size: 24px;
+    margin-bottom: 16px;
+    
+}
+.coming{
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+.offer-description{
+    font-size: 20px;
+    color: #9D9D9D;
+}
+.circle{
+    border:15px solid red;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-right: 118px;
+    
+  
+}
+.n-2024{
+    width: 276px;
+    /* height: 170px; */
+}
+
+.n-2{
+    color: #FF0000;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.n-description{
+    color: #9D9D9D;
+    font-size: 20px;
+    
+}
+.holidays{
+    width: 1320px;
+    height: 986.07px;
+    margin: auto;
+    position: relative;
+}
+.holidays-description{
+     width: 1068px;
+    height: 260px; 
+    margin:0 auto;
+    padding-top: 80px;
+    display: inline;
+   
+}
+.function{
+    font-size: 24px;
+    color: #070211;
+    margin-bottom: 16px;
+    padding-left: 300px;
+}
+.hol{
+    color: #FF0000;
+}
+.sale-holidays{
+    font-size: 72px;
+    margin-bottom: 28px;
+}
+.red-bg{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+}
+
+.gift-box{
+    position: absolute;
+    left: 120px;
+    bottom: 120px;
+    width: 500px;
+}
+.discount{
+    position: absolute;
+    right: 180px;
+    top: 420px;
+    width: 220px;
+}
+
