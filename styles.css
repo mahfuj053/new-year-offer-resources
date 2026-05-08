@@ -251,3 +251,104 @@ margin-bottom: 20px;
     width: 220px;
 }
 
+.portfolio-pic{
+    padding-left: 0px;
+   
+}
+
+.portfolio{
+    padding: 120px;
+    width: 1320px;
+    /* height: 1163px; */
+  
+
+}
+.gifts{
+    color: #FF0000;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+.aus{
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+.p-des{
+    color: #9D9D9D;
+    margin-bottom: 48px;
+}
+.rect-3 , .rect-4 {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.rect-6, .rect-7{
+        margin-right: 10px;
+            margin-bottom: 10px
+
+}
+.rect-5{
+    margin-bottom: 10px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #FFFBF0;
+    width: 1320px;
+    height: 619px;
+    
+}
+.msg-des{
+       text-align: center;
+       padding-left: 400px;
+}
+.grp-61{
+ padding-left: 600px;
+ margin-bottom: 40px;
+}
+.sub{
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 22px;
+}
+.subscribe-box{
+    width: 550px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    overflow: hidden;
+}
+
+.subscribe-box input{
+    border: none;
+    outline: none;
+
+    width: 100%;
+    padding-left: 30px;
+
+    font-size: 16px;
+}
+
+.subscribe-box button{
+    width: 180px;
+    height: 100%;
+
+    border: none;
+    background-color: #ff1200;
+    color: white;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    border-radius: 50px;
+}
+.p-msg-des{
+    margin-bottom: 48px;
+}
